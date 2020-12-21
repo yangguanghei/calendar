@@ -15,6 +15,9 @@
 		182D9E142589F469007C3599 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 182D9E122589F469007C3599 /* LaunchScreen.storyboard */; };
 		182D9E1F2589F46A007C3599 /* _7___Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D9E1E2589F46A007C3599 /* _7___Tests.swift */; };
 		182D9E2A2589F46A007C3599 /* _7___UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182D9E292589F46A007C3599 /* _7___UITests.swift */; };
+		1830803825904A0D00C62EFD /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830803725904A0D00C62EFD /* CalendarViewController.swift */; };
+		1830803D25904AFD00C62EFD /* CalendarCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1830803C25904AFD00C62EFD /* CalendarCollectionViewCell.swift */; };
+		187653762590881400A18FDA /* CalendarCollectionReusableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187653752590881400A18FDA /* CalendarCollectionReusableView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		182D9E252589F46A007C3599 /* 27.日历UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "27.日历UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		182D9E292589F46A007C3599 /* _7___UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_7___UITests.swift"; sourceTree = "<group>"; };
 		182D9E2B2589F46A007C3599 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1830803725904A0D00C62EFD /* CalendarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		1830803C25904AFD00C62EFD /* CalendarCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionViewCell.swift; sourceTree = "<group>"; };
+		187653752590881400A18FDA /* CalendarCollectionReusableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCollectionReusableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,7 +90,9 @@
 				182D9E282589F46A007C3599 /* 27.日历UITests */,
 				182D9E052589F466007C3599 /* Products */,
 			);
+			indentWidth = 4;
 			sourceTree = "<group>";
+			tabWidth = 4;
 		};
 		182D9E052589F466007C3599 /* Products */ = {
 			isa = PBXGroup;
@@ -102,6 +110,9 @@
 				182D9E072589F466007C3599 /* AppDelegate.swift */,
 				182D9E092589F466007C3599 /* SceneDelegate.swift */,
 				182D9E0B2589F466007C3599 /* ViewController.swift */,
+				1830803725904A0D00C62EFD /* CalendarViewController.swift */,
+				1830803C25904AFD00C62EFD /* CalendarCollectionViewCell.swift */,
+				187653752590881400A18FDA /* CalendarCollectionReusableView.swift */,
 				182D9E0D2589F466007C3599 /* Main.storyboard */,
 				182D9E102589F469007C3599 /* Assets.xcassets */,
 				182D9E122589F469007C3599 /* LaunchScreen.storyboard */,
@@ -258,6 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1830803D25904AFD00C62EFD /* CalendarCollectionViewCell.swift in Sources */,
+				1830803825904A0D00C62EFD /* CalendarViewController.swift in Sources */,
+				187653762590881400A18FDA /* CalendarCollectionReusableView.swift in Sources */,
 				182D9E0C2589F466007C3599 /* ViewController.swift in Sources */,
 				182D9E082589F466007C3599 /* AppDelegate.swift in Sources */,
 				182D9E0A2589F466007C3599 /* SceneDelegate.swift in Sources */,
@@ -439,6 +453,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "27.日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -458,6 +473,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = N4686HA3AU;
 				INFOPLIST_FILE = "27.日历/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
